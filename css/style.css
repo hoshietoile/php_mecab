@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: Verdana, sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  box-sizing: border-box;
+}
+
+/*global*/
+
+.container-fluid {
+  margin:  0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#tab_1 div[class="box"] {
+  background: #eee;
+  color: #777;
+  padding: 5px;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#result table {
+  width: 100%;
+  text-align: center;
+}
+
+#result_1 table th[class="col_1"], #result_1 table td[class="col_1"] {
+  min-width: 60px;
+}
+
+#result_1 table th[class="col_2"], #result_1 table td[class="col_2"] {
+  min-width: 286px;
+}
+
+#result_1 table th[class="col_3"], #result_1 table td[class="col_3"], #result_1 table th[class="col_4"], #result_1 table td[class="col_4"]{
+  min-width: 115px;
+}
+
+#result_3 table th, #result_3 table td {
+  width: 12.5%;
+}
+
+
+/*regulation*/
+#regulation section {
+
+}
+
+#regulation table {
+  background: transparent;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+#regulation select {
+  /* padding: 5.2px; */
+}
+
+#regulation table th, #regulation table td {
+  width: 20%;
+}
+
+#regulation input, #regulation select {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: transparent;
+}
